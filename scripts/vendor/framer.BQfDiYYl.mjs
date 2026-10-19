@@ -1005,14 +1005,12 @@ async function yn(e, t) {
 function bn(e, t) {
   if (!e.startsWith(`/`) || !t.startsWith(`/`))
     throw Error(`from/to paths are expected to be absolute`);
-  let [n] = xn(e),
-    [r, i] = xn(t),
-    a = Sn(n, r);
-  return (
-    a === `` && (a = `.`),
-    !a.startsWith(`.`) && !a.startsWith(`/`) && (a = `./` + a),
-    a + `/` + i
-  );
+  // Static export patch: this site is served from the domain root, and every
+  // page is a directory (about/index.html), so its URL carries a trailing
+  // slash. The original relative result ("./about" from "/about") resolves one
+  // level too deep against "/about/", producing /about/about. Emit root
+  // absolute paths with the trailing slash instead, matching the export layout.
+  return t === `/` ? `/` : t.endsWith(`/`) ? t : t + `/`;
 }
 function xn(e) {
   let t = e.lastIndexOf(`/`);
