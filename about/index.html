@@ -662,7 +662,20 @@ navigationcontainer [data-framer-component-type="NavigationContainer"] > *, [dat
 <!-- SnippetEnd: legacy-headEnd -->
 
     <!-- End of headEnd -->
-<style data-about-intro="true">/* Intro body copy shares the nizf32 preset with the page headlines; scope a smaller size to just this block so the headlines keep theirs. */.framer-hxfw5 h1:nth-of-type(2){--framer-font-size:30px !important;}@media (max-width: 1199px) and (min-width: 810px){.framer-hxfw5 h1:nth-of-type(2){--framer-font-size:25px !important;}}@media (max-width: 809px){.framer-hxfw5 h1:nth-of-type(2){--framer-font-size:21px !important;}}.framer-zNDIh .framer-qwolvr{max-width:1040px !important;}@media (max-width: 1199px) and (min-width: 810px){.framer-zNDIh .framer-qwolvr{max-width:760px !important;}}/* Hero portrait: true circle (container was 0.980556/1 with a 16px radius). */.framer-alNG3 .framer-ob74up{aspect-ratio:1/1 !important;border-radius:50% !important;}</style></head>
+<style data-about-intro="true">/* Intro body copy shares the nizf32 preset with the page headlines; scope a smaller size to just this block so the headlines keep theirs. */.framer-hxfw5 h1:nth-of-type(2){--framer-font-size:30px !important;}@media (max-width: 1199px) and (min-width: 810px){.framer-hxfw5 h1:nth-of-type(2){--framer-font-size:25px !important;}}@media (max-width: 809px){.framer-hxfw5 h1:nth-of-type(2){--framer-font-size:21px !important;}}.framer-zNDIh .framer-qwolvr{max-width:1040px !important;}@media (max-width: 1199px) and (min-width: 810px){.framer-zNDIh .framer-qwolvr{max-width:760px !important;}}/* Hero portrait: true circle (container was 0.980556/1 with a 16px radius). */.framer-alNG3 .framer-ob74up{aspect-ratio:1/1 !important;border-radius:50% !important;}</style><script data-export-full-navigation>/* Static export patch: Framer's client-side router pushes the new URL but never
+renders the target route in this export, so clicking a link appeared to do
+nothing until a manual refresh. Intercept internal link clicks during the
+capture phase, before React's handler, and let the browser navigate normally. */
+(function(){document.addEventListener('click',function(e){
+if(e.defaultPrevented||e.button!==0||e.metaKey||e.ctrlKey||e.shiftKey||e.altKey)return;
+var a=e.target&&e.target.closest?e.target.closest('a[href]'):null;
+if(!a||a.hasAttribute('download'))return;
+if(a.target&&a.target!=='_self')return;
+var u;try{u=new URL(a.getAttribute('href'),location.href);}catch(err){return;}
+if(u.origin!==location.origin)return;
+if(u.hash&&u.pathname===location.pathname)return;
+e.preventDefault();e.stopImmediatePropagation();location.assign(u.href);
+},true);})();</script></head>
 <body>
 	
 	<!-- Start of bodyStart -->

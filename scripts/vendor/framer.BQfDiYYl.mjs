@@ -1998,6 +1998,12 @@ function zr(e) {
   return t === `` ? 0 : t.split(`/`).length;
 }
 function Br(e, t) {
+  // Static export patch: every page is exported as a directory
+  // (work/pcf/index.html), so its URL carries a trailing slash. Route patterns
+  // ("/work/:slug") compile to /work/([^/]+)$ which a trailing slash can never
+  // match, so client-side navigation resolved nothing and fell through to the
+  // home route - the URL changed but the page never rendered until a reload.
+  e.length > 1 && e.endsWith(`/`) && (e = e.slice(0, -1));
   let n = [],
     r = Vr(t).replace(Vg, (e, t) => (n.push(t), `([^/]+)`)),
     i = RegExp(r + `$`),
