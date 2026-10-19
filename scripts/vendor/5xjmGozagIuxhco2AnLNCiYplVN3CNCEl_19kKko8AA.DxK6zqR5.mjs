@@ -1356,13 +1356,6 @@ e(() => {
                                               },
                                               children: `Fundamentally, it means that I have had to develop a more rounded, than usual, skillset as I’ve had to be a UI designer, UX designer, Researcher, Product Manager, and Front-end Developer when needed. I’ve designed and built products from their beginning to their release, to post-release.`,
                                             }),
-                                            s(`br`, {}),
-                                            s(`span`, {
-                                              style: {
-                                                "--framer-text-color": `rgb(110, 110, 110)`,
-                                              },
-                                              children: `Today that work is AI-first product design: shaping agentic AI experiences where software reasons and acts in the background while people stay in control, and building the design systems, patterns and guidelines that keep those experiences consistent, accessible and trustworthy at scale.`,
-                                            }),
                                           ],
                                         }),
                                       ],
