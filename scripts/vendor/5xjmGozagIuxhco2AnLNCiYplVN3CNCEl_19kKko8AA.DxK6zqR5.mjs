@@ -1356,6 +1356,13 @@ e(() => {
                                               },
                                               children: `Fundamentally, it means that I have had to develop a more rounded, than usual, skillset as I’ve had to be a UI designer, UX designer, Researcher, Product Manager, and Front-end Developer when needed. I’ve designed and built products from their beginning to their release, to post-release.`,
                                             }),
+                                            s(`br`, {}),
+                                            s(`span`, {
+                                              style: {
+                                                "--framer-text-color": `rgb(110, 110, 110)`,
+                                              },
+                                              children: `Today that work is AI-first product design: shaping agentic AI experiences where software reasons and acts in the background while people stay in control, and building the design systems, patterns and guidelines that keep those experiences consistent, accessible and trustworthy at scale.`,
+                                            }),
                                           ],
                                         }),
                                       ],
@@ -1684,7 +1691,7 @@ e(() => {
                                       nodeId: `JlOX57Qzx`,
                                       scopeId: `urTt7Hepx`,
                                       children: s(K, {
-                                        EWZrRoAFN: ``,
+                                        EWZrRoAFN: `Leading design for AI-powered security experiences that help organisations discover, assess and govern AI agents and their risks.\n- Shaping the UX vision for Agent Behavior: runtime governance, policy enforcement and visibility into how agents act.\n- Designing Agent Scan to discover and assess AI assets in local and virtual machines (MCP servers, skills and coding agents).\n- Defining interaction patterns for agentic AI: background actions, progress feedback, human oversight and traceability.\n- Evolving the Evo design system and authoring AI UX guidelines for Product and Engineering.`,
                                         height: `100%`,
                                         id: `JlOX57Qzx`,
                                         l3ljIiqFZ: `Staff Product Designer for Emerging Technologies`,
@@ -1717,7 +1724,7 @@ e(() => {
                                       nodeId: `FjeeggPIS`,
                                       scopeId: `urTt7Hepx`,
                                       children: s(K, {
-                                        EWZrRoAFN: `At PagerDuty, my focus has been on pioneering AI-driven product design, integrating Generative AI into our product specifically imrpoving end-to-end incident management capabilities. Designed AI-UX patterns to be adopted across all pagerduty product. PagerDuty Advance showcases my expertise, where I've led the design of Advance AI Agents, significantly enhancing Enterprise Incident Management efficiency. `,
+                                        EWZrRoAFN: `Designed AI capabilities for incident management that help teams understand incidents, coordinate response and cut manual work.\n- Designed PagerDuty Advance, including AI assistance in Slack and Microsoft Teams.\n- Built workflows for incident summaries, status updates, customer impact, probable causes and post-incident reviews.\n- Contributed to AI agents and an agent management console covering configuration, monitoring, analytics and permissions.\n- Designed admin experiences for AI enablement, access, onboarding and usage visibility.\n- Defined the AI-UX patterns and design system contributions adopted across the PagerDuty product.`,
                                         height: `100%`,
                                         id: `FjeeggPIS`,
                                         l3ljIiqFZ: `Staff Product Designer for AI-First (PagerDuty Advance)`,
@@ -2142,6 +2149,38 @@ Projects: Conimbriga Construções, Borrelho wines, Scoutness Wordpress blog, SD
                                     width: `max(min(max(${_?.width || `100vw`}, 1px), 1440px), 1px)`,
                                     y: (_?.y || 0) + 0 + 1659 + 0 + 100 + 0 + 102 + 0 + 60,
                                     children: s(F, {
+                                      className: `framer-adplist-container`,
+                                      nodeId: `aDpL500Mnt`,
+                                      scopeId: `urTt7Hepx`,
+                                      children: s(J, {
+                                        height: `100%`,
+                                        id: `aDpL500Mnt`,
+                                        l3ljIiqFZ: `Issued by ADPList`,
+                                        layoutId: `aDpL500Mnt`,
+                                        O3LJFMByd: ` ADPList, 500 Mentorship Minutes`,
+                                        style: { width: `100%` },
+                                        width: `100%`,
+                                        zIgs_TZYX: `2024`,
+                                      }),
+                                    }),
+                                  }),
+                                }),
+                                s(R, {
+                                  breakpoint: C,
+                                  overrides: {
+                                    nSnTKzOm3: {
+                                      y: (_?.y || 0) + 0 + 1654 + 0 + 100 + 0 + 102 + 0 + 120,
+                                    },
+                                    nVbKh10Fx: {
+                                      width: `max(min(${_?.width || `100vw`}, 1440px), 1px)`,
+                                      y: (_?.y || 0) + 0 + 1920 + 0 + 0 + 60 + 0 + 156 + 0 + 120,
+                                    },
+                                  },
+                                  children: s(D, {
+                                    height: 28,
+                                    width: `max(min(max(${_?.width || `100vw`}, 1px), 1440px), 1px)`,
+                                    y: (_?.y || 0) + 0 + 1659 + 0 + 100 + 0 + 102 + 0 + 120,
+                                    children: s(F, {
                                       className: `framer-ohcbb7-container`,
                                       nodeId: `Y63DA4Gn7`,
                                       scopeId: `urTt7Hepx`,
@@ -2162,17 +2201,17 @@ Projects: Conimbriga Construções, Borrelho wines, Scoutness Wordpress blog, SD
                                   breakpoint: C,
                                   overrides: {
                                     nSnTKzOm3: {
-                                      y: (_?.y || 0) + 0 + 1654 + 0 + 100 + 0 + 102 + 0 + 120,
+                                      y: (_?.y || 0) + 0 + 1654 + 0 + 100 + 0 + 102 + 0 + 180,
                                     },
                                     nVbKh10Fx: {
                                       width: `max(min(${_?.width || `100vw`}, 1440px), 1px)`,
-                                      y: (_?.y || 0) + 0 + 1920 + 0 + 0 + 60 + 0 + 156 + 0 + 120,
+                                      y: (_?.y || 0) + 0 + 1920 + 0 + 0 + 60 + 0 + 156 + 0 + 180,
                                     },
                                   },
                                   children: s(D, {
                                     height: 28,
                                     width: `max(min(max(${_?.width || `100vw`}, 1px), 1440px), 1px)`,
-                                    y: (_?.y || 0) + 0 + 1659 + 0 + 100 + 0 + 102 + 0 + 120,
+                                    y: (_?.y || 0) + 0 + 1659 + 0 + 100 + 0 + 102 + 0 + 180,
                                     children: s(F, {
                                       className: `framer-rqlmv1-container`,
                                       nodeId: `NgTmTfvKI`,
@@ -2194,17 +2233,17 @@ Projects: Conimbriga Construções, Borrelho wines, Scoutness Wordpress blog, SD
                                   breakpoint: C,
                                   overrides: {
                                     nSnTKzOm3: {
-                                      y: (_?.y || 0) + 0 + 1654 + 0 + 100 + 0 + 102 + 0 + 180,
+                                      y: (_?.y || 0) + 0 + 1654 + 0 + 100 + 0 + 102 + 0 + 240,
                                     },
                                     nVbKh10Fx: {
                                       width: `max(min(${_?.width || `100vw`}, 1440px), 1px)`,
-                                      y: (_?.y || 0) + 0 + 1920 + 0 + 0 + 60 + 0 + 156 + 0 + 180,
+                                      y: (_?.y || 0) + 0 + 1920 + 0 + 0 + 60 + 0 + 156 + 0 + 240,
                                     },
                                   },
                                   children: s(D, {
                                     height: 28,
                                     width: `max(min(max(${_?.width || `100vw`}, 1px), 1440px), 1px)`,
-                                    y: (_?.y || 0) + 0 + 1659 + 0 + 100 + 0 + 102 + 0 + 180,
+                                    y: (_?.y || 0) + 0 + 1659 + 0 + 100 + 0 + 102 + 0 + 240,
                                     children: s(F, {
                                       className: `framer-1lcs944-container`,
                                       nodeId: `MNwtJJMlB`,
