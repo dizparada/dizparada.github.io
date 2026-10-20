@@ -26,7 +26,7 @@ import {
   s as T,
   st as E,
   xt as D,
-} from "./framer.BQfDiYYl.mjs";
+} from "./framer.BQfDiYYl-nav2.mjs";
 import { i as O, r as k } from "./shared-lib.DjXQ4AZU.mjs";
 function A(e, ...t) {
   let n = {};

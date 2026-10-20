@@ -1,7 +1,7 @@
 import { t as e } from "./rolldown-runtime.hBrq4iGT.mjs";
 import { C as t, L as n, N as r, c as i, f as a, o, u as s, z as c } from "./react.BUXbFMJS.mjs";
 import { S as l } from "./motion.CLjJX74m.mjs";
-import { S as u, Y as d, Z as ee, g as te, k as ne, r as re, s as f } from "./framer.BQfDiYYl.mjs";
+import { S as u, Y as d, Z as ee, g as te, k as ne, r as re, s as f } from "./framer.BQfDiYYl-nav2.mjs";
 function p(e) {
   return new DataView(e.buffer, e.byteOffset, e.byteLength);
 }

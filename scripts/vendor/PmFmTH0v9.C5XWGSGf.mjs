@@ -10,7 +10,7 @@ import {
   r as ne,
   s as p,
   t as re,
-} from "./framer.BQfDiYYl.mjs";
+} from "./framer.BQfDiYYl-nav2.mjs";
 function m(e) {
   return new DataView(e.buffer, e.byteOffset, e.byteLength);
 }

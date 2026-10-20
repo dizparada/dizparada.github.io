@@ -74,7 +74,7 @@ import {
   x as V,
   xt as Me,
   y as Ne,
-} from "./framer.BQfDiYYl.mjs";
+} from "./framer.BQfDiYYl-nav2.mjs";
 import { i as Pe, n as Fe, r as Ie, t as Le } from "./F_pPBFm64.R_TR2zCX.mjs";
 import { a as Re, c as ze, o as Be, s as Ve } from "./shared-lib.DjXQ4AZU.mjs";
 import { i as He, n as Ue, r as We, t as Ge } from "./YqEpde0dB.D0X_SpJn.mjs";

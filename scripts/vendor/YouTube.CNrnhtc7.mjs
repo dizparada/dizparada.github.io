@@ -1,6 +1,6 @@
 import { t as e } from "./rolldown-runtime.hBrq4iGT.mjs";
 import { C as t, P as n, T as r, c as i, l as a, o, s } from "./react.BUXbFMJS.mjs";
-import { Y as c, k as l, s as u } from "./framer.BQfDiYYl.mjs";
+import { Y as c, k as l, s as u } from "./framer.BQfDiYYl-nav2.mjs";
 import {
   a as d,
   c as f,

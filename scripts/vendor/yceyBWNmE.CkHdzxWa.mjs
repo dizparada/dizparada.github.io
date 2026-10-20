@@ -28,7 +28,7 @@ import {
   st as D,
   vt as O,
   xt as k,
-} from "./framer.BQfDiYYl.mjs";
+} from "./framer.BQfDiYYl-nav2.mjs";
 var A,
   j,
   M,

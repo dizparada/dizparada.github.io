@@ -36,7 +36,7 @@ import {
   ut as ue,
   w as de,
   x as w,
-} from "./framer.BQfDiYYl.mjs";
+} from "./framer.BQfDiYYl-nav2.mjs";
 import { a as fe, c as T, o as pe, s as E } from "./shared-lib.DjXQ4AZU.mjs";
 import { i as me, n as he, r as ge, t as _e } from "./YqEpde0dB.D0X_SpJn.mjs";
 import { n as ve, t as D } from "./CXVDk4iXl.tTc9sygM.mjs";

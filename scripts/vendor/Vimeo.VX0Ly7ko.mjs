@@ -12,7 +12,7 @@ import {
   z as u,
 } from "./react.BUXbFMJS.mjs";
 import { S as d, t as f } from "./motion.CLjJX74m.mjs";
-import { A as p, C as m, St as h, Y as g, k as _, s as v } from "./framer.BQfDiYYl.mjs";
+import { A as p, C as m, St as h, Y as g, k as _, s as v } from "./framer.BQfDiYYl-nav2.mjs";
 import { a as ee, n as y, t as b } from "./default-utils.js__0.45.BIBXjq3o.mjs";
 function x(e, t) {
   if (!(e instanceof t)) throw TypeError(`Cannot call a class as a function`);

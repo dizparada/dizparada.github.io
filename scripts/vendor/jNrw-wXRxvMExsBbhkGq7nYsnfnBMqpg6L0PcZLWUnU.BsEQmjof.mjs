@@ -45,7 +45,7 @@ import {
   w as C,
   x as w,
   yt as be,
-} from "./framer.BQfDiYYl.mjs";
+} from "./framer.BQfDiYYl-nav2.mjs";
 import { a as xe, c as T, o as E, s as D } from "./shared-lib.DjXQ4AZU.mjs";
 import { n as O, t as Se } from "./EiSctT0o2.DmqrOrly.mjs";
 import { i as k, n as A, r as j, t as Ce } from "./krsRuWvBk.CcHb3Ain.mjs";

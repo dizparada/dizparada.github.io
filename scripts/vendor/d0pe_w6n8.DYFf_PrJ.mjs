@@ -27,7 +27,7 @@ import {
   s as E,
   st as D,
   xt as O,
-} from "./framer.BQfDiYYl.mjs";
+} from "./framer.BQfDiYYl-nav2.mjs";
 import { a as k, c as A, o as j, s as M } from "./shared-lib.DjXQ4AZU.mjs";
 import { i as N, n as P, r as F, t as I } from "./YqEpde0dB.D0X_SpJn.mjs";
 function L(e, ...t) {

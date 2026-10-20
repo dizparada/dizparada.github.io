@@ -24,7 +24,7 @@ import {
   ot as x,
   p as S,
   wt as C,
-} from "./framer.BQfDiYYl.mjs";
+} from "./framer.BQfDiYYl-nav2.mjs";
 import { i as w, r as T } from "./shared-lib.DjXQ4AZU.mjs";
 var E, D, O, k, A, j, M;
 e(() => {

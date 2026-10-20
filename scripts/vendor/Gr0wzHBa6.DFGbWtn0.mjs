@@ -28,7 +28,7 @@ import {
   s as D,
   st as O,
   xt as k,
-} from "./framer.BQfDiYYl.mjs";
+} from "./framer.BQfDiYYl-nav2.mjs";
 import { i as A, r as j } from "./shared-lib.DjXQ4AZU.mjs";
 import { i as M, n as N, r as P, t as F } from "./YqEpde0dB.D0X_SpJn.mjs";
 function I(e, ...t) {

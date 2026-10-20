@@ -29,7 +29,7 @@ import {
   s as O,
   st as k,
   xt as A,
-} from "./framer.BQfDiYYl.mjs";
+} from "./framer.BQfDiYYl-nav2.mjs";
 import { a as j, c as M, i as N, o as P, r as F, s as I } from "./shared-lib.DjXQ4AZU.mjs";
 function L(e, ...t) {
   let n = {};

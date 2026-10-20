@@ -31,7 +31,7 @@ import {
   s as A,
   st as j,
   xt as M,
-} from "./framer.BQfDiYYl.mjs";
+} from "./framer.BQfDiYYl-nav2.mjs";
 import { i as N, r as P } from "./shared-lib.DjXQ4AZU.mjs";
 var F,
   I,

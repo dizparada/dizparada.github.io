@@ -1,5 +1,5 @@
 import { t as e } from "./rolldown-runtime.hBrq4iGT.mjs";
-import { P as t, Y as n } from "./framer.BQfDiYYl.mjs";
+import { P as t, Y as n } from "./framer.BQfDiYYl-nav2.mjs";
 var r,
   i,
   a,

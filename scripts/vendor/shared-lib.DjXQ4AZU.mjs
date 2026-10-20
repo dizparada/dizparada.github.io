@@ -11,7 +11,7 @@ import {
   o as l,
 } from "./react.BUXbFMJS.mjs";
 import { S as u, t as d } from "./motion.CLjJX74m.mjs";
-import { C as f, P as p, Y as m, k as h, s as g } from "./framer.BQfDiYYl.mjs";
+import { C as f, P as p, Y as m, k as h, s as g } from "./framer.BQfDiYYl-nav2.mjs";
 var _,
   v,
   y,

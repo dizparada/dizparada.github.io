@@ -1,5 +1,5 @@
 import { t as e } from "./rolldown-runtime.hBrq4iGT.mjs";
-import { G as t, S as n, Y as r } from "./framer.BQfDiYYl.mjs";
+import { G as t, S as n, Y as r } from "./framer.BQfDiYYl-nav2.mjs";
 import { i, t as a } from "./PmFmTH0v9.C5XWGSGf.mjs";
 function o(e, t) {
   let n = e?.Sv0j4mVcd,
